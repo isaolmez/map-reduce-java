@@ -1,4 +1,4 @@
-package com.isa.mapreduce.sentence;
+package com.isa.counting.mapreduce.sentence;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.isa.mapreduce.perf;
+package com.isa.counting.mapreduce.perf;
 /***
  * 
  *	Taken from Algorithms, Sedgewick 

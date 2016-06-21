@@ -1,11 +1,11 @@
-package com.isa.mapreduce.main;
+package com.isa.counting.mapreduce.main;
 
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import com.isa.mapreduce.perf.DoublingTestTemplate;
-import com.isa.mapreduce.perf.InputFileGenerator;
-import com.isa.mapreduce.sentence.SentenceFrequencyCounter;
+import com.isa.counting.mapreduce.perf.DoublingTestTemplate;
+import com.isa.counting.mapreduce.perf.InputFileGenerator;
+import com.isa.counting.mapreduce.sentence.SentenceFrequencyCounter;
 
 public class SentenceCountDoublingTest extends DoublingTestTemplate {
 

@@ -1,4 +1,4 @@
-package com.isa.mapreduce.pq;
+package com.isa.counting.mapreduce.pq;
 
 /******************************************************************************
  *  Compilation:  javac IndexMinPQ.java

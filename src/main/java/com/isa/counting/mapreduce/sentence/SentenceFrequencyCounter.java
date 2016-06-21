@@ -1,4 +1,4 @@
-package com.isa.mapreduce.sentence;
+package com.isa.counting.mapreduce.sentence;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.TreeMap;
 
-import com.isa.mapreduce.pq.IndexMinPQ;
+import com.isa.counting.mapreduce.pq.IndexMinPQ;
 
 public class SentenceFrequencyCounter {
 	private static String HomeDirectory;

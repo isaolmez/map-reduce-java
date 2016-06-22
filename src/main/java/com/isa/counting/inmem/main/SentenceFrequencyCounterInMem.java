@@ -32,11 +32,11 @@ public class SentenceFrequencyCounterInMem {
 	}
 
 	public static void main(String[] args) throws IOException {
-		String source = "test.txt";
-		String sourcePath = Paths.get("/home/isa/", source).toString();
-		String target = "result.txt";
-		String targetPath = Paths.get("/home/isa/", target).toString();
-		SentenceFrequencyCounterInMem frequencyCounter = new SentenceFrequencyCounterInMem();
-		frequencyCounter.count(sourcePath, targetPath);
+		 String source = "test.txt";
+		 String sourcePath = Paths.get("/home/isa/", source).toString();
+		 String target = "result.txt";
+		 String targetPath = Paths.get("/home/isa/", target).toString();
+		 SentenceFrequencyCounterInMem frequencyCounter = new SentenceFrequencyCounterInMem();
+		 frequencyCounter.count(sourcePath, targetPath);
 	}
 }

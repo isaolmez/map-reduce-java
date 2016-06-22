@@ -1,2 +1,2 @@
 # map-reduce-java
-Sentence Count Using Basic Map Reduce Implementation
+Sentence(or word) counting example using a basic Java implementation of Map-Reduce. 

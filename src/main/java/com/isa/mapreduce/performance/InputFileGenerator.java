@@ -1,4 +1,4 @@
-package com.isa.counting.mapreduce.perf;
+package com.isa.mapreduce.performance;
 
 import java.io.BufferedWriter;
 import java.nio.file.Files;

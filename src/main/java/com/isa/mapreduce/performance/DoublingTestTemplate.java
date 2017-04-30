@@ -1,7 +1,7 @@
-package com.isa.counting.mapreduce.perf;
+package com.isa.mapreduce.performance;
 
 /**
- * 
+ * Not being used in current implementation
  * Inspired from Algorithms, Sedgewick
  *
  */

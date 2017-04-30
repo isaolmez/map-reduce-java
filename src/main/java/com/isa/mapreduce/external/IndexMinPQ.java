@@ -1,4 +1,4 @@
-package com.isa.counting.mapreduce.pq;
+package com.isa.mapreduce.external;
 
 /******************************************************************************
  *  Compilation:  javac IndexMinPQ.java
@@ -45,7 +45,7 @@ public class IndexMinPQ<Key extends Comparable<? super Key>> implements Iterable
     private int maxN;        // maximum number of elements on PQ
     private int N;           // number of elements on PQ
     private int[] pq;        // binary heap using 1-based indexing
-    private int[] qp;        // inverse of pq - qp[pq[i]] = pq[qp[i]] = i
+    private int[] qp;        // inverse of model - qp[model[i]] = model[qp[i]] = i
     private Key[] keys;      // keys[i] = priority of i
 
     /**
@@ -303,7 +303,7 @@ public class IndexMinPQ<Key extends Comparable<? super Key>> implements Iterable
     public Iterator<Integer> iterator() { return new HeapIterator(); }
 
     private class HeapIterator implements Iterator<Integer> {
-        // create a new pq
+        // create a new model
         private IndexMinPQ<Key> copy;
 
         // add all elements to copy of heap

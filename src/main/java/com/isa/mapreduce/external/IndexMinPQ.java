@@ -314,9 +314,13 @@ public class IndexMinPQ<Key extends Comparable<? super Key>> implements Iterable
                 copy.insert(pq[i], keys[pq[i]]);
         }
 
+        @Override
         public boolean hasNext()  { return !copy.isEmpty();                     }
+
+        @Override
         public void remove()      { throw new UnsupportedOperationException();  }
 
+        @Override
         public Integer next() {
             if (!hasNext()) throw new NoSuchElementException();
             return copy.delMin();
